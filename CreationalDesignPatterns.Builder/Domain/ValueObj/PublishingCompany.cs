@@ -1,7 +1,8 @@
 ﻿namespace CreationalDesignPatterns.Builder.Domain.ValueObj
 {
-    public enum Class
+    public enum PublishingCompany
     {
-        S, A, B, C
+        DC,
+        Marvel
     }
 }

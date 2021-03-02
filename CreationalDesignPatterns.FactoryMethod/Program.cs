@@ -23,6 +23,8 @@ namespace CreationalDesignPatterns.FactoryMethod
             var motorcycleInsurance = InsuranceFactory.Create(InsuranceType.Motorcycle);
             var motorcycleInsurancePolicy = motorcycleInsurance.AuthorizeInsurance();
             Console.WriteLine($"Motorcycle insurance policy: {motorcycleInsurancePolicy}");
+
+            Console.ReadKey();
         }
     }
 }

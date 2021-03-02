@@ -1,15 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace CreationalDesignPatterns.Builder.Domain.ValueObj
 {
     [Flags]
     public enum Weapons
     {
-        Armor = 1,
-        Gun = 2,
-        Bow = 4,
-        Knife = 8,
-        Axe = 16,
-        Shield = 32
+        Gun = 1,
+        Armor = 2,
+        Knife = 4,
+        Axe = 8,
+        Shield = 16
     }
 }

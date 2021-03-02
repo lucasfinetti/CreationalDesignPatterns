@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CreationalDesignPatterns.Builder.Builders;
+using CreationalDesignPatterns.Builder.Director;
+using System;
 
 namespace CreationalDesignPatterns.Builder
 {
@@ -6,7 +8,23 @@ namespace CreationalDesignPatterns.Builder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var superHeroCreator = new SuperHeroCreator();
+
+            var batmanBuilder = new BatmanBuilder();
+            var ironManBuilder = new IronManBuilder();
+            var thorBuilder = new ThorBuilder();
+
+            superHeroCreator.CreateDCSuperHero(batmanBuilder);
+            superHeroCreator.CreateMarvelSuperHero(ironManBuilder);
+            superHeroCreator.CreateMarvelSuperHero(thorBuilder);
+
+            var batman = batmanBuilder.GetSuperHero();
+            var thor = thorBuilder.GetSuperHero();
+            var ironMan = ironManBuilder.GetSuperHero();
+
+            batman.ShowInfo();
+            thor.ShowInfo();
+            ironMan.ShowInfo();
         }
     }
 }

@@ -8,9 +8,22 @@ namespace CreationalDesignPatterns.Builder.Domain
     public class SuperHero
     {
         public string Name { get; set; }
-        public Class @class { get; set; }
-        public Powers powers { get; set; }
+        public string CreatedYear { get; set; }
+        public PublishingCompany PublishingCompany { get; set; }
+        public Powers Powers { get; set; }
         public Weapons Weapons { get; set; }
-        public bool Car { get; set; }
+
+        public void ShowInfo()
+        {
+            Console.WriteLine($"Name: {Name}");
+            Console.WriteLine($"Created Year: {CreatedYear}");
+            Console.WriteLine($"Publishing Company: {PublishingCompany}");
+            if (Powers != 0)
+            {
+                Console.WriteLine($"Powers: {Powers}");
+            }
+            Console.WriteLine($"Weapons: {Weapons}");
+            Console.WriteLine();
+        }
     }
 }
