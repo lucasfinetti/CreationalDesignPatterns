@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1009E15-076D-45EE-9C85-FCD69DC5E638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Builder", "3 - Builder", "{0E8780AB-752D-47E2-9D96-4D9B88435FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPatterns.Builder", "CreationalDesignPatterns.Builder\CreationalDesignPatterns.Builder.csproj", "{BA3F1ABF-2775-4AF5-A178-F175638380BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - FactoryMethod", "1 - FactoryMethod", "{73D9277B-BC91-41AC-AF39-FA1FAE35AF2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPatterns.FactoryMethod", "CreationalDesignPatterns.FactoryMethod\CreationalDesignPatterns.FactoryMethod.csproj", "{28133D01-4A5D-4882-8AAD-098043FC6339}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - AbstractFactory", "2 - AbstractFactory", "{FD1B8DB0-F180-4D06-A80A-0C212E472FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPatterns.AbstractFactory", "CreationalDesignPatterns.AbstractFactory\CreationalDesignPatterns.AbstractFactory.csproj", "{8862E9BF-5519-4A56-A898-B7E3155AB6E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA3F1ABF-2775-4AF5-A178-F175638380BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3F1ABF-2775-4AF5-A178-F175638380BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3F1ABF-2775-4AF5-A178-F175638380BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3F1ABF-2775-4AF5-A178-F175638380BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28133D01-4A5D-4882-8AAD-098043FC6339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28133D01-4A5D-4882-8AAD-098043FC6339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28133D01-4A5D-4882-8AAD-098043FC6339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28133D01-4A5D-4882-8AAD-098043FC6339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8862E9BF-5519-4A56-A898-B7E3155AB6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8862E9BF-5519-4A56-A898-B7E3155AB6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8862E9BF-5519-4A56-A898-B7E3155AB6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8862E9BF-5519-4A56-A898-B7E3155AB6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E8780AB-752D-47E2-9D96-4D9B88435FE7} = {D1009E15-076D-45EE-9C85-FCD69DC5E638}
+		{BA3F1ABF-2775-4AF5-A178-F175638380BE} = {0E8780AB-752D-47E2-9D96-4D9B88435FE7}
+		{73D9277B-BC91-41AC-AF39-FA1FAE35AF2C} = {D1009E15-076D-45EE-9C85-FCD69DC5E638}
+		{28133D01-4A5D-4882-8AAD-098043FC6339} = {73D9277B-BC91-41AC-AF39-FA1FAE35AF2C}
+		{FD1B8DB0-F180-4D06-A80A-0C212E472FFA} = {D1009E15-076D-45EE-9C85-FCD69DC5E638}
+		{8862E9BF-5519-4A56-A898-B7E3155AB6E4} = {FD1B8DB0-F180-4D06-A80A-0C212E472FFA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D31A9FDD-27CD-4FC7-8EE2-3FB427D1C07F}
+	EndGlobalSection
+EndGlobal
