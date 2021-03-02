@@ -21,7 +21,10 @@ namespace CreationalDesignPatterns.Singleton
 
             var thirdList = superHeroRepository2.GetAll();
 
-            Console.WriteLine();
+            Console.WriteLine($"firstList == secondList: {firstList == secondList}");
+            Console.WriteLine($"firstList == thirdList: {firstList == thirdList}");
+
+            Console.ReadKey();
         }
     }
 }
